@@ -1,0 +1,15 @@
+extends ../layouts/default
+include ../mixins/sub-menu
+
+block content
+
+	.container
+		h2 Vizon
+		p Stanford University SSDL
+
+	.container 
+		if !resource
+			- var resource = 'the previous page';
+		p You have been directed to this page because you do not have sufficient permsissions to view #{resource}.
+
+		p If you believe this to be in error, please contact a site administrator.

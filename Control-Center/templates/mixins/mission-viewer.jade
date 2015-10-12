@@ -1,0 +1,159 @@
+mixin mission-viewer-js()
+	script(src='/js/lib/jquery/jquery-1.11.0.min.js')
+	script(src='/js/lib/bootstrap/bootstrap-3.1.0.min.js')
+	script(src='/js/lib/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js')
+	script(src='/js/underscore/underscore.js')
+	script(src='/js/backbone/backbone.js')
+	script(src='/js/moment/moment.js')
+	script(src='/js/viewmissionbundle.js')
+	script(src='/socket.io/socket.io.js')
+	
+mixin mission-viewer-content()
+
+	style(type='text/css').
+		@font-face {
+			font-family: 'Glyphicons Halflings';
+			src: url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot');
+			src: url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.woff') format('woff'), url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+		}
+
+
+	.container
+		div.row
+			div#missionindicator
+			br
+			div#checklist
+		div.row.fontsize
+			div#tapviews.col-xs-6
+				- for (var key in data.tap_descs) {
+				div(id=key)
+				- }
+			div.col-xs-6
+				div#caps
+	
+		script(type='text/template', id='tmpl-header')
+			.container
+				div
+					div.pull-right
+						h1 Data Status
+							<% if(status.length) { %> - 
+							<% if(status == "Live") %>
+							span.text-success <%= status %>
+							<% else if(status == "Disconnected") %>
+							span.text-warning <%= status %>
+							<% else %>
+							span.text-danger <%= status %>
+							<% } %>
+					div.pull-left
+						h1 Mission <%= mission.missionId %> - <%= mission.name %>
+					div.clearfix
+	
+		script(type='text/template', id='tmpl-check')
+			fieldset
+				div.control-group
+					input#toggleall(type='checkbox')
+					label(for='toggleall') Show All
+					ul#checklistitems
+						<% _.each(tap_descs, function(tap_desc) {%>
+						input.toggle(type='checkbox')
+						label <%= tap_desc.ID %>
+						<% }); %>
+	
+		script(type='text/template', id='tmpl-raw')
+			<% if(!tap_desc) return; %>
+			fieldset
+				legend <%= tap_desc.ID.replace('_',' ') %> - <%= tap_desc.name %>
+				div.control-group
+					label.control-label <%= moment(tap.d).calendar() %>
+					div.input-group
+						<% if(tap && tap.h) { %>
+						div <%= tap.h.Timestamp.n %>: <%= tap.h.Timestamp.v %>
+						div <%= tap.h["Sequence Number"].n %>: <%= tap.h.s %>
+						<% _.each(tap.p, function(elem) { %>
+						div
+							<%= elem.n %>: <%= elem.v %>
+							<% if(elem.u) { %>
+							<%= elem.u %>
+							<% } %>
+						<% }); %>
+						<% } %>
+						br
+	
+		script(type='text/template', id='tmpl-tap-dropdown')
+			<% _.each(tap_descs, function(tap_desc) { %>
+			option(value!='<%= tap_desc.ID.split("_")[1] %>') <%= tap_desc.ID.replace('_',' ') %> - <%= tap_desc.name %>
+			<% }); %>
+	
+		script(type='text/template', id='tmpl-cap-dropdown')
+			fieldset
+				legend Command Selector
+				div.control-group
+					select.form-control#cap_selector(name='cap_selector')
+						<% var offsetCounter = 0; %>
+						<% _.each(cap_descs, function(cap_desc) {%>
+						<% var capnum = cap_desc.attributes.ID.split('_')[1]; %>
+						<% if(capnum == '1') { %>
+						<% offsetCounter++; %>
+						option(style='header') System
+						<% } else if(capnum == '33') { %>
+						<% offsetCounter++; %>
+						option(style='header') Telemetry
+						<% } else if(capnum == '65') { %>
+						<% offsetCounter++; %>
+						option(style='header') Commands
+						<% } else if(capnum == '96') { %>
+						<% offsetCounter++; %>
+						option(style='header') Debugging
+						<% } else if(capnum == '128') { %>
+						<% offsetCounter++; %>
+						option(style='header') Bus
+						<% } else if(capnum == '192') { %>
+						<% offsetCounter++; %>
+						option(style='header') Payload
+						<% } %>
+						option(value!='<%= cap_desc.attributes.ID %>', data-offset!='<%= offsetCounter.toString() %>') &nbsp;&nbsp;<%= cap_desc.attributes.ID.split('_')[0] %> <%= cap_desc.attributes.ID.split('_')[1].toUpperCase() %> - <%= cap_desc.attributes.name %>
+						<% }); %>
+			div#cap
+	
+		script(type='text/template', id='tmpl-caps')
+			div#cap-entries
+	
+		script(type='text/template', id='tmpl-cap')
+			fieldset
+				// legend <%= name %>
+				<% var elems = package.slice(0); _.each(header, function(h_elem) { if(h_elem.split(',')[0] == 'Execution Time') elems.splice(0,0,h_elem) }); _.each(elems, function(elem) { %>
+				div.control-group
+					<% var f = elem.split(',')[0]; var o = elem.split(',')[2]; var h = elem.split(',')[4]; %>
+					label.control-label <%= f %>
+					<% if( o && o.trim() == 'TAPS') { %>
+					select.form-control(name!='<%= f %>')
+						<%= tap_opts_template({tap_descs: tap_descs}) %>
+					<% } else if(o && o.trim() == 'CLOCK') { %>
+					div.input-group.date.datetimepicker
+						input.form-control(type='text', name!='<%= f %>', value='', placeholder!='<%= (h ? h : f) %>', data-isdate='true')
+						span.input-group-addon
+							span.glyphicon.glyphicon-remove
+						span.input-group-addon.pickerbutton
+							span.glyphicon.glyphicon-calendar
+							span &nbsp;
+							span.glyphicon.glyphicon-time
+					<% } else if(o && o.trim() == 'INTERVAL') { %>
+					div.input-group
+						input.form-control.interval(type='text', name!='<%= f %>', placeholder!='<%= (h ? h : f) %>')
+						span.input-group-addon
+							span.output <%= 'never' %>
+					<% } else if(o && o.trim()[0] == '[') { %>
+					select.form-control(name!='<%= f %>')
+						<% var onew = o.trim().slice(1, o.trim().length-1).trim(); _.each(onew.split(';'), function(opt) { opt = opt.split(':');%>
+						option(value!='<%= parseInt(opt[1]) %>') <%= opt[1] %> - <%= opt[0] %>
+						<% }); %>
+					<% } else if ( elem !== "" ){ %>
+					input.form-control(type='text', name!='<%= f %>', placeholder!='<%= (h ? h : f) %>')
+					<% } %>
+					span.help-block
+				<% }); %>
+				div.control-group
+					button.btn.btn-primary.btn-send(type='button') Send CAP
+		
+	
+		script(type='text/template', id='data-mission') !{escape(JSON.stringify(data))}

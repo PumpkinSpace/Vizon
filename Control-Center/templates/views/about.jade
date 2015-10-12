@@ -1,0 +1,14 @@
+extends ../layouts/default
+include ../mixins/sub-menu
+
+block content
+	+sub-menu()
+
+	.container
+		h2 About Page
+		p Stanford University SSDL
+
+	.container 
+		p Developed by Kevin Rausch, Arni Lehto, and Michael D'Angelo, Vizon is an open source satellite management tool written entirely in Node.JS 
+		p Vizon is useful for reviewewing telemetry received by satellites, sending commands to satellites, etc etc
+		

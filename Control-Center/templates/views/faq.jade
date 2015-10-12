@@ -1,0 +1,20 @@
+extends ../layouts/default
+include ../mixins/sub-menu
+
+block content
+	+sub-menu()
+
+	.container
+		h2 #{section}
+		p Stanford University SSDL
+		br
+
+	.container 
+		p This is where we will put answers to questiosn people commonly ask.
+		p some examples below
+		br
+	.container
+		h4 Is vizon free? 
+		p Yes! Vizon is an open source project managed by students at Stanford SSDL 
+		h4 How can I use Vizon 
+		p Vizon is designed to send and recieve commands using a communications proticol that will be documented somewhere eventually.

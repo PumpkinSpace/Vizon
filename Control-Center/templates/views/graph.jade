@@ -1,0 +1,37 @@
+extends ../layouts/default
+
+block js
+	script(src='/Highstock-2.0.4/js/highstock.js')
+	script(src='/Highstock-2.0.4/js/modules/exporting.js')
+	script(src='/socket.io/socket.io.js')
+	script(src='/js/export-csv/export-csv.js')
+	script(src='/js/graph/graph.js')
+	
+block content
+	br
+	br
+	.btn-group
+		button#missionddb.btn.btn-default.btn-primary.dropdown-toggle(type='button', data-toggle='dropdown', aria-expanded='true')
+				| Select Mission 
+				span.caret
+			ul#missiondd.dropdown-menu(role='menu')
+				for mission in missions
+					li(role='presentation')
+						a.missionvar(role='menuitem', tabindex='-1', href='#') #{mission.missionId}, #{mission.name}
+	.btn-group
+		button#tapddb.btn.btn-default.btn-primary.dropdown-toggle(type='button', data-toggle='dropdown')
+				| Select Data 
+				span.caret
+			ul#tapmenu.dropdown-menu
+	.btn-group
+		button#scatterbutton.btn.btn-primary Scatter
+	.btn-group
+		button#exportbutton.btn.btn-primary
+			| Export 
+			span.glyphicon.glyphicon-export
+	ul#selectedlist.list-group
+
+
+	#graphcontainer(style='min-width: 310px; height: 400px; margin: 0 auto;')
+
+

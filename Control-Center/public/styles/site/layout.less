@@ -1,0 +1,103 @@
+// Vizon customize styles to override default bootstraps
+
+#body {
+	.floor;
+	.floor-1;
+	padding-bottom: @page-padding;
+	padding-top: @page-padding;
+}
+
+// Header ---------------------------------------
+#header {
+	.container {
+		width: 100%;
+		padding: 0px;
+	}
+
+	@media (min-width: @grid-float-breakpoint-max) {
+		li {
+			border-left: 1px solid fade(black, 10%);
+		}
+	}
+}
+// -------------------------------------------
+
+// Footer ---------------------------------------
+.site-footer {
+//	background-color: lighten(@body-bg, 3.5%);
+	color: black;
+	padding: 3em 0 0;
+	font-size: @font-size-base * 0.8;
+	position: relative;
+	border-top: 2px solid fade(black, 10%);
+
+	.col-xs-4 {
+		border-left: 1px solid fade(black, 10%);
+		height: 100px;
+	}
+
+	.footer-heading {
+		color: #000;
+	}
+
+	ul, ol {
+		.list-unstyled();
+	}
+
+	p {
+		margin-bottom: 5px;
+	}
+
+	a {
+		color: #000;
+	}
+}
+
+.footer-copyright {
+	margin-top: 2em;
+	padding: 2em 2em;
+	text-align: left;
+}
+// -------------------------------------------
+
+// Container ---------------------------------------
+.container-xs,
+.container-sm,
+.container-md {
+	.container-fixed();
+}
+
+@media (min-width: @screen-sm-min) {
+	.container-xs { width: 600px; }
+	.container-sm { width: @screen-sm-min - @grid-gutter-width; }
+	.container-md { max-width: @screen-md-min - @grid-gutter-width; }
+}
+// -------------------------------------------
+
+// Page ---------------------------------------
+.page-intro {
+	padding-bottom: @page-padding;
+	text-align: center;
+	h1 {
+		margin-bottom: 0.25em;
+	}
+	.buttons > .btn {
+		margin-right: 10px;
+	}
+	.lead {
+		max-width: @screen-sm-min - @grid-gutter-width;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+// -------------------------------------------
+
+.gallery-image img{
+	display:block;
+	max-width:100%;
+	height:auto;
+}
+
+.fontsize {
+	font-size: @font-size-base * 0.8;
+}

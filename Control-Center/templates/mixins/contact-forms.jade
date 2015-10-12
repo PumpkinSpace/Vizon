@@ -1,0 +1,37 @@
+//-
+	Contact Forms
+	------------------------------
+	
+	Args
+	* modal  - boolean
+	
+mixin contact-forms(args)
+	if args.modal
+		.modal-header
+			button(type="button", class="close", data-dismiss="modal", aria-hidden="true") &times;
+			h4.modal-title Contact Us
+	div(class=args.modal ? 'modal-body' : null)
+		form(method='post', action='/contact', autocomplete='off').auth-form
+			input(type='hidden', name='action', value='contact')
+			.form-groups
+				.form-group(class=validationErrors.name ? 'has-error' : null)
+					label(for='name.full').sr-only Name
+					input(type='text', name='name.full', placeholder='Name', value=!args.modal ? formData['name.full'] : null, required).form-control.form-control--first
+				.form-group(class=validationErrors.email ? 'has-error' : null)
+					label(for='email').sr-only Email
+					input(type='email', name='email', placeholder='Email', value=!args.modal ? formData.email : null, required).form-control
+				.form-group
+					label(for='phone').sr-only Phone (optional)
+					input(type='text', name='phone', placeholder='Phone (optional)', value=!args.modal ? formData.phone : null).form-control.form-control--last
+
+				.form-group(class=validationErrors.enquiryType ? 'has-error' : null)
+					label(for='enquiryType').sr-only What are you contacting us about?
+					select(name='enquiryType').form-control.form-control--select
+						option(value='') What are you contacting us about?
+						each type in enquiryTypes
+							option(value=type.value, selected=formData.enquiryType == type.value)= type.label
+				.form-group(class=validationErrors.message ? 'has-error' : null)
+					label(for='message').sr-only Leave us a message...
+					textarea(name='message', placeholder='Leave us a message...' rows=4).form-control.form-control--both= formData.message
+
+			button(type='submit').btn.btn-block.btn-primary.btn-submit Send

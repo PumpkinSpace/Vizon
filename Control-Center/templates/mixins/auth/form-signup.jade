@@ -1,0 +1,55 @@
+//-
+	Join
+	------------------------------
+	
+	Args
+	* modal  - boolean
+	* initial [default "signup"] - accepts "signin" | "signup" | "password"
+	
+mixin form-signup(args)
+	.auth-box.modal-pane-signup(class=args.modal && args.initial != 'signup' ? 'hidden' : null)
+		if args.modal
+			.modal-header
+				button(type="button", class="close", data-dismiss="modal", aria-hidden="true") &times;
+				h4.modal-title Vizon
+		div(class=args.modal ? 'modal-body' : null)
+			//- p Or use your email, that's okay too:
+			form(method='post', action='/signup', autocomplete='off', novalidate).auth-form
+				input(type='hidden', name='action', value='signup')
+				input(type='hidden', name='target', value=!args.modal ? form.target : page.path)
+				if !args.modal
+					if form.error
+						.flash-messages
+							.alert.alert-danger
+								div!= form.error.message || form.error
+								
+								//- Field Errors
+								if form.error.errors && !_.isEmpty(form.error.errors)
+									ul
+										each error, key in form.error.errors
+											li!= error.msg
+					
+					- var checkFormError = function(key) { return form.error && form.error.errors && form.error.errors[key] ? 'has-error' : null }
+				.form-groups
+					.form-group(class=!args.modal ? checkFormError('firstname') : null)
+						label(for='firstname').sr-only First name
+						input(type='text', name='firstname', placeholder='First name', value=!args.modal ? form.firstname : null).form-control.form-control--first
+					.form-group(class=!args.modal ? checkFormError('lastname') : null)
+						label(for='lastname').sr-only Last name
+						input(type='text', name='lastname', placeholder='Last name', value=!args.modal ? form.lastname : null).form-control
+					.form-group(class=!args.modal ? checkFormError('email') : null)
+						label(for='email').sr-only Email
+						input(type='email', name='email', placeholder='Email', value=!args.modal ? form.email : null).form-control
+					.form-group(class=!args.modal ? checkFormError('password') : null)
+						label(for='password').sr-only Password
+						input(type='password', name='password', placeholder='Password', value=!args.modal ? form.password : null).form-control.form-control--last
+				button(type='submit').btn.btn-block.btn-primary.btn-submit Request Access
+
+			p.text-center.text-muted.mt-3
+				| By creating your Vizon account you agree to our 
+				a(href='/tos') Terms of Use
+				|  and 
+				a(href='/privacy') Privacy Policy.
+			p.text-center.text-muted.mt-3
+				| Already have an account? 
+				a(href=args.modal ? js : '/signin', rel=args.modal ? 'modal-pane' : null, data-modal-pane=args.modal ? 'signin' : null) Sign in

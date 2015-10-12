@@ -1,0 +1,15 @@
+extends ../layouts/default
+include ../mixins/mission-viewer
+
+//block head
+	//title Mission Data
+
+	//block content
+		//-link(rel='stylesheet', href='/views/data/missions/index.min.css?#{cacheBreaker}')
+
+
+block js
+	+mission-viewer-js()
+
+block content
+	+mission-viewer-content()

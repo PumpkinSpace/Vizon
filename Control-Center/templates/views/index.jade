@@ -1,0 +1,12 @@
+extends ../layouts/default
+
+block content
+	.container
+		h2 Vizon II 
+		p Stanford University SSDL
+	
+	.container
+		if user
+			p Welcome back #{user.name.first}
+		else
+			p Please sign in see more information

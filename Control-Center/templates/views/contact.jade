@@ -1,0 +1,14 @@
+extends ../layouts/default
+
+block flash-messages
+
+block content
+    .container-xs
+        .page-intro
+            h1 Contact Us
+            +flash-messages(messages)
+        .page-content
+            if enquirySubmitted
+                h3 Thanks for getting in touch.
+            else
+                +contact-forms({ modal: false })

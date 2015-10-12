@@ -1,0 +1,22 @@
+extends ../layouts/default
+block content
+
+	// Content Header
+	.container
+		hr
+		h1.text-center.header #{ground_station.name}
+		hr
+		p Ground Station Key: #{ground_station.key}
+		p This page will eventually display upcoming satellite passes, statistics about last and future 
+		| contact, etc etc. 
+		br
+		br
+		
+	.container
+		p Ground Station Location: 
+		p Lattitude: #{ground_station.location.lattitude}
+		p Longitude: #{ground_station.location.longitude}
+		p Elevation: #{ground_station.location.elevation}
+		iframe(src='https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d405498.757556831!2d'+ground_station.location.longitude+'!3d'+ground_station.location.lattitude+'!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1418386934753', width='640', height='480', frameborder='0', style='border:0')
+		
+

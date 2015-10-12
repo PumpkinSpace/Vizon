@@ -1,0 +1,13 @@
+extends ../layouts/default
+
+
+block content
+	.container
+		.dropdown
+			button#dropdownMenu1.btn.btn-default.btn-primary.dropdown-toggle(type='button', data-toggle='dropdown', aria-expanded='true')
+					| Select Ground Station 
+					span.caret
+				ul.dropdown-menu(role='menu')
+					for gs in stations
+						li(role='presentation')
+							a(role='menuitem', tabindex='-1', href='/gs/'+gs.groundStationId) #{gs.name} - #{gs.groundStationId}

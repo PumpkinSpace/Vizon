@@ -1,0 +1,21 @@
+extends ../layouts/default
+include ../mixins/mission-viewer
+
+block js
+	script(src='/socket.io/socket.io.js')
+	script(src='/js/missions.js')
+	script(src='/js/lib/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js')
+	script(src='/js/underscore/underscore.js')
+	script(src='/js/backbone/backbone.js')
+	script(src='/js/moment/moment.js')
+
+block content
+	.container
+		.dropdown
+			button#dropdownMenu1.btn.btn-default.btn-primary.dropdown-toggle(type='button', data-toggle='dropdown', aria-expanded='true')
+					| Select Mission 
+					span.caret
+				ul.dropdown-menu(role='menu')
+					for mission in missions
+						li(role='presentation')
+							a(role='menuitem', tabindex='-1', href='/mission/'+mission.missionId) #{mission.missionId}, #{mission.name}

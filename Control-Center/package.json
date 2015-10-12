@@ -1,0 +1,61 @@
+{
+  "name": "arthena",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "keystone": "^0.3.1",
+    "async": "~0.9.0",
+    "backbone": "*",
+    "bytes": "^0.3.0",
+    "browserify": "*",
+    "colors": "^0.6.2",
+    "morgan": "^1.0.0",
+    "mongoose": "~3.8.1",
+    "mongoose-schema-extend": "^0.1.7",
+    "underscore": "~1.7.0",
+    "dotenv": "0.4.0",
+    "passport": "^0.2.0",
+    "passport-facebook": "^1.0.2",
+    "passport-github": "^0.1.5",
+    "passport-google-oauth": "^0.1.5",
+    "passport-twitter": "^1.0.2",
+    "socket.io": "~0.9.16",
+    "source-map": "0.1.34",
+    "events": "*",
+    "jquery-browserify": "*",
+    "csv": "*"
+  },
+  "devDependencies": {
+    "gulp": "~3.6.2",
+    "gulp-jshint": "~1.6.1",
+    "jshint-stylish": "~0.1.3",
+    "gulp-watch": "~0.6.5",
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-nodemon": "~0.3.0",
+    "grunt-forever": "~0.4.5",
+    "grunt-browserify": "~3.2.1",
+    "grunt-express-server": "~0.4.17",
+    "load-grunt-tasks": "~1.0.0",
+    "grunt-node-inspector": "~0.1.5",
+    "time-grunt": "~1.0.0",
+    "grunt-concurrent": "~1.0.0",
+    "open": "0.0.5"
+  },
+  "engines": {
+    "node": ">=0.10.22",
+    "npm": ">=1.3.14"
+  },
+  "scripts": {
+    "start": [
+      "node keystone.js",
+      "npm run watch & nodemon server.js"
+    ],
+    "watch": "watchify client/main.js -o public/app.js -v",
+    "build": "browserify client/main.js -o public/app.js"
+  },
+  "main": "keystone.js"
+}
