@@ -1,0 +1,773 @@
+[2m2015-10-12T21:42:48.763Z - [0m[36mINF[0m Ground Station starting in [33mdevelopment[0m mode
+[2m2015-10-12T21:42:48.845Z - [0m[36mINF[0m DB Connection established
+[2m2015-10-12T21:42:53.789Z - [0m[31mERR[0m Serial port unavailable
+[2m2015-10-12T21:42:53.790Z - [0m[36mINF[0m List of available ports:
+[2m2015-10-12T21:42:58.824Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:43:08.824Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:43:18.824Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:43:28.825Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:43:38.828Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:43:48.834Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:43:58.839Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:44:08.844Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:44:18.849Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:44:28.855Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:44:38.860Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:44:48.865Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:44:57.129Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-12T21:44:58.867Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:45:08.873Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:45:18.878Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:45:28.883Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:45:38.888Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:45:48.894Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:45:58.896Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:46:08.902Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:46:18.908Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:46:28.913Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:46:38.919Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:46:48.924Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:46:58.929Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:47:07.176Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-12T21:47:08.931Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:47:18.935Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:47:28.939Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:47:38.944Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:47:48.945Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:47:58.949Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:48:08.953Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:48:18.959Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:48:28.965Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:48:38.966Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:48:48.969Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:48:58.970Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:49:08.975Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:49:17.224Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-12T21:49:18.978Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:49:28.983Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:49:38.988Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:49:48.993Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:49:58.998Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:50:09.003Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:50:19.011Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:50:29.016Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:50:39.021Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:50:49.027Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:50:59.033Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:51:09.034Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:51:19.039Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:51:27.272Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-12T21:51:29.041Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:51:39.047Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:51:49.053Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:51:59.058Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:52:09.063Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:52:19.068Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:52:29.074Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:52:39.079Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:52:49.084Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:52:59.090Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:53:09.095Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:53:19.100Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:53:29.106Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:53:37.320Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-12T21:53:39.108Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:53:49.114Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:53:59.120Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:54:09.125Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:54:19.130Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:54:29.135Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:54:39.141Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:54:49.146Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:54:59.151Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:55:09.156Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:55:19.161Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:55:29.167Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:55:39.172Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:55:47.496Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-12T21:55:49.174Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:55:59.176Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:56:09.181Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:56:19.186Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:56:29.187Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:56:39.189Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:56:49.189Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:56:59.192Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:57:09.198Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:57:19.203Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:57:29.208Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:57:39.214Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:57:49.219Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:57:57.416Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-12T21:57:59.221Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:58:09.227Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:58:19.232Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:58:29.237Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:58:39.242Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:58:49.247Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:58:59.253Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:59:09.259Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:59:19.264Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:59:29.270Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:59:39.275Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:59:49.280Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T21:59:59.285Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:00:07.464Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-12T22:00:09.287Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:00:19.293Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:00:29.299Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:00:39.307Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:00:49.312Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:00:59.317Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:01:09.323Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:01:19.329Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:01:29.335Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:01:39.342Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:01:49.347Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:01:59.350Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:02:09.356Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:02:17.512Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-12T22:02:19.358Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:02:29.363Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:02:39.369Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:02:49.374Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:02:59.380Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:03:09.386Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:03:19.392Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:03:29.397Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:03:39.402Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:03:49.407Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:03:59.412Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:04:09.417Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:04:19.422Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:04:27.688Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-12T22:04:29.424Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:04:39.431Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:04:49.437Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:04:59.442Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:05:09.448Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:05:19.454Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:05:29.459Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:05:39.465Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:05:49.470Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:05:59.476Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:06:09.482Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:06:19.487Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:06:29.492Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:06:37.736Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-12T22:06:39.494Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:06:49.500Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:06:59.505Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:07:09.508Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:07:19.513Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:07:29.518Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:07:39.519Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:07:49.524Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:07:59.529Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:08:09.534Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:08:19.540Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:08:29.545Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:08:39.550Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:08:47.784Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-12T22:08:49.553Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:08:59.558Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:09:09.563Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:09:19.568Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:09:29.574Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:09:39.579Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:09:49.585Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:09:59.590Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:10:09.595Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:10:19.600Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:10:29.605Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:10:39.611Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:10:49.616Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:10:57.832Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-12T22:10:59.618Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:11:09.623Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:11:19.629Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:11:29.634Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:11:39.639Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:11:49.644Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:11:59.649Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:12:09.654Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:12:19.659Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:12:29.664Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:12:39.669Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:12:49.674Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:12:59.680Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:13:07.880Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-12T22:13:09.682Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:13:19.688Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:13:29.694Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:13:39.699Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:13:49.704Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:13:59.708Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:14:09.714Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:14:19.720Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:14:29.726Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:14:39.732Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:14:49.738Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:14:59.744Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:15:09.749Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:15:18.056Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-12T22:15:19.751Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:15:29.755Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:15:39.760Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:15:49.766Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:15:59.771Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:16:09.776Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:16:19.781Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:16:29.786Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:16:39.792Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:16:49.798Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:16:59.803Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:17:09.808Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:17:19.813Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:17:29.816Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:17:32.968Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-12T22:17:39.818Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:17:49.824Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:17:59.829Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:18:09.834Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:18:19.834Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:18:29.839Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:18:39.844Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:18:49.849Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:18:59.854Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:19:09.859Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:19:19.864Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:19:29.869Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:19:39.874Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:19:48.136Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-12T22:19:49.876Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:19:59.882Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:20:09.887Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:20:19.892Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:20:29.897Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:20:39.903Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:20:49.908Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:20:59.914Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:21:09.920Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:21:19.926Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:21:29.931Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:21:39.936Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:21:49.941Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:21:58.184Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-12T22:21:59.944Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:21:59.945Z - [0m[31mERR[0m Socket Error: getaddrinfo ENOTFOUND
+    at errnoException (dns.js:37:11)
+    at Object.onanswer [as oncomplete] (dns.js:124:16)
+[2m2015-10-12T22:22:09.950Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:22:09.951Z - [0m[31mERR[0m Socket Error: getaddrinfo ENOTFOUND
+    at errnoException (dns.js:37:11)
+    at Object.onanswer [as oncomplete] (dns.js:124:16)
+[2m2015-10-12T22:22:19.955Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:22:19.956Z - [0m[31mERR[0m Socket Error: getaddrinfo ENOTFOUND
+    at errnoException (dns.js:37:11)
+    at Object.onanswer [as oncomplete] (dns.js:124:16)
+[2m2015-10-12T22:22:29.961Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:22:29.964Z - [0m[31mERR[0m Socket Error: getaddrinfo ENOTFOUND
+    at errnoException (dns.js:37:11)
+    at Object.onanswer [as oncomplete] (dns.js:124:16)
+[2m2015-10-12T22:22:39.968Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:22:55.857Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:23:05.861Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:23:15.866Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:23:25.871Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:23:35.874Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:23:45.879Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:23:55.884Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:24:05.889Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:24:15.893Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:24:25.898Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:24:35.901Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:24:45.901Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:24:54.183Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-12T22:24:55.903Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:25:05.905Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:25:15.910Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:25:25.916Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:25:35.920Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:25:45.925Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:25:55.931Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:26:05.935Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:26:15.939Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:26:25.942Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:26:35.947Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:26:45.952Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:26:55.956Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:27:04.230Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-12T22:27:05.957Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:27:15.962Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:27:25.967Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:27:35.973Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:27:45.980Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:27:55.985Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:28:05.990Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:28:15.995Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:28:26.000Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:28:36.005Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:28:46.010Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:28:56.016Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:29:06.021Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:29:14.278Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-12T22:29:16.024Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:29:26.030Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:29:36.036Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:29:46.039Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:29:56.045Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:30:06.051Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:30:16.055Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:30:26.061Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:30:36.063Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:30:46.069Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:30:56.072Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:31:06.076Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:31:16.078Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:31:24.326Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-12T22:31:26.080Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:31:36.086Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:31:46.091Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:31:56.096Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:32:06.101Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:32:16.107Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:32:26.112Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:32:36.117Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:32:46.122Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:32:56.128Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:33:06.133Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:33:16.138Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:33:26.143Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:33:34.374Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-12T22:33:36.145Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:33:46.150Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:33:56.155Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:34:06.160Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:34:16.166Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:34:26.171Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:34:36.176Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:34:46.181Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:34:56.186Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:35:06.187Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:35:16.189Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:35:26.194Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:35:36.199Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:35:44.422Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-12T22:35:46.201Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:35:56.206Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:36:06.211Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:36:16.216Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:36:26.222Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:36:36.227Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:36:46.232Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:36:56.237Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:37:06.241Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:37:16.247Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:37:26.252Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:37:36.257Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:37:46.263Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:37:54.470Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-12T22:37:56.265Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:38:06.271Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:38:16.276Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:38:26.281Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:38:36.287Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:38:46.292Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:38:56.297Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:39:06.302Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:39:16.307Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:39:26.313Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:39:36.318Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:39:46.323Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:39:56.328Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:40:04.518Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-12T22:40:06.330Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:40:16.336Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:40:26.342Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:40:36.347Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:40:46.352Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:40:56.358Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:41:06.363Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:41:16.368Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:41:26.372Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:41:36.373Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:41:46.378Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:41:56.383Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:42:06.389Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:42:14.695Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-12T22:42:16.391Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:42:16.392Z - [0m[31mERR[0m Socket Error: getaddrinfo ENOTFOUND
+    at errnoException (dns.js:37:11)
+    at Object.onanswer [as oncomplete] (dns.js:124:16)
+[2m2015-10-12T22:42:26.397Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:42:26.399Z - [0m[31mERR[0m Socket Error: getaddrinfo ENOTFOUND
+    at errnoException (dns.js:37:11)
+    at Object.onanswer [as oncomplete] (dns.js:124:16)
+[2m2015-10-12T22:42:36.403Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:42:36.405Z - [0m[31mERR[0m Socket Error: getaddrinfo ENOTFOUND
+    at errnoException (dns.js:37:11)
+    at Object.onanswer [as oncomplete] (dns.js:124:16)
+[2m2015-10-12T22:42:46.410Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:42:46.411Z - [0m[31mERR[0m Socket Error: getaddrinfo ENOTFOUND
+    at errnoException (dns.js:37:11)
+    at Object.onanswer [as oncomplete] (dns.js:124:16)
+[2m2015-10-12T22:42:56.415Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:42:56.416Z - [0m[31mERR[0m Socket Error: getaddrinfo ENOTFOUND
+    at errnoException (dns.js:37:11)
+    at Object.onanswer [as oncomplete] (dns.js:124:16)
+[2m2015-10-12T22:43:06.421Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:43:06.422Z - [0m[31mERR[0m Socket Error: getaddrinfo ENOTFOUND
+    at errnoException (dns.js:37:11)
+    at Object.onanswer [as oncomplete] (dns.js:124:16)
+[2m2015-10-12T22:43:16.427Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:43:16.429Z - [0m[31mERR[0m Socket Error: getaddrinfo ENOTFOUND
+    at errnoException (dns.js:37:11)
+    at Object.onanswer [as oncomplete] (dns.js:124:16)
+[2m2015-10-12T22:43:26.434Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:43:26.435Z - [0m[31mERR[0m Socket Error: getaddrinfo ENOTFOUND
+    at errnoException (dns.js:37:11)
+    at Object.onanswer [as oncomplete] (dns.js:124:16)
+[2m2015-10-12T22:43:36.438Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-12T22:43:36.439Z - [0m[31mERR[0m Socket Error: getaddrinfo ENOTFOUND
+    at errnoException (dns.js:37:11)
+    at Object.onanswer [as oncomplete] (dns.js:124:16)
+[2m2015-10-13T23:02:41.445Z - [0m[36mINF[0m Ground Station starting in [33mdevelopment[0m mode
+[2m2015-10-13T23:02:41.712Z - [0m[36mINF[0m DB Connection established
+[2m2015-10-13T23:02:46.593Z - [0m[31mERR[0m Serial port unavailable
+[2m2015-10-13T23:02:46.593Z - [0m[36mINF[0m List of available ports:
+[2m2015-10-13T23:02:51.685Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:03:01.686Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:03:11.686Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:03:21.687Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:03:31.687Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:03:41.688Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:03:51.689Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:04:01.690Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:04:11.690Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:04:21.691Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:04:31.692Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:04:41.695Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:04:49.096Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-13T23:04:51.699Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:05:01.706Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:05:11.709Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:05:21.710Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:05:31.714Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:05:41.720Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:05:51.726Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:06:01.732Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:06:11.738Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:06:21.741Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:06:31.744Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:06:41.746Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:06:51.752Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:06:59.015Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-13T23:07:01.754Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:07:11.761Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:07:21.766Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:07:31.768Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:07:41.772Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:07:51.778Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:08:01.783Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:08:11.788Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:08:21.794Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:08:31.799Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:08:41.800Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:08:51.805Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:09:01.809Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:09:09.063Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-13T23:09:11.811Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:09:21.818Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:09:31.821Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:09:41.821Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:09:51.825Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:10:01.830Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:10:11.836Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:10:21.843Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:10:31.848Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:10:41.849Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:10:51.849Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:11:01.851Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:11:11.856Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:11:19.111Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-13T23:11:21.859Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:11:31.864Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:11:41.870Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:11:51.876Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:12:01.882Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:12:11.887Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:12:21.892Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:12:31.897Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:12:41.903Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:12:51.904Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:13:01.910Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:13:11.914Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:13:21.920Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:13:29.159Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-13T23:13:31.923Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:13:41.929Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:13:51.934Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:14:01.939Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:14:11.944Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:14:21.949Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:14:31.951Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:14:41.957Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:14:51.962Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:15:01.964Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:15:11.966Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:15:21.971Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:15:31.976Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:15:39.335Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-13T23:15:41.979Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:15:51.986Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:16:01.992Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:16:11.995Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:16:21.997Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:16:32.002Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:16:42.006Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:16:52.012Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:17:02.014Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:17:12.020Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:17:22.025Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:17:32.030Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:17:42.036Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:17:49.383Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-13T23:17:52.037Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:18:02.043Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:18:12.048Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:18:22.052Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:18:32.057Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:18:42.060Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:18:52.063Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:19:02.069Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:19:12.074Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:19:22.080Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:19:32.081Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:19:42.086Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:19:52.089Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:19:59.431Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-13T23:20:02.092Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:20:12.099Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:20:22.099Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:20:32.106Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:20:42.110Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:20:52.115Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:21:02.120Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:21:12.125Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:21:22.128Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:21:32.133Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:21:42.134Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:21:52.136Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:22:02.138Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:22:09.351Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-13T23:22:12.141Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:22:22.148Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:22:32.155Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:22:42.160Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:22:53.463Z - [0m[36mINF[0m Ground Station starting in [33mdevelopment[0m mode
+[2m2015-10-13T23:22:58.492Z - [0m[31mERR[0m Serial port unavailable
+[2m2015-10-13T23:22:58.493Z - [0m[36mINF[0m List of available ports:
+[2m2015-10-13T23:23:03.529Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:23:13.529Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:23:23.529Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:23:33.529Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:23:43.530Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:23:53.531Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:24:03.535Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:24:13.541Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:24:23.546Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:24:33.552Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:24:43.557Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:24:53.562Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:25:00.743Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-13T23:25:03.564Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:25:13.572Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:25:23.573Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:25:33.577Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:25:43.583Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:25:53.589Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:26:03.595Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:26:13.600Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:26:23.605Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:26:33.609Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:26:43.615Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:26:53.620Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:27:03.624Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:27:10.791Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-13T23:27:13.628Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:27:23.634Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:27:33.640Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:27:43.646Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:27:53.651Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:28:03.656Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:28:13.662Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:28:23.668Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:28:33.674Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:28:43.680Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:28:53.685Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:29:03.691Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:29:13.697Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:29:20.839Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-13T23:29:23.698Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:29:33.702Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:29:43.707Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:29:53.710Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:30:03.714Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:30:13.718Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:30:23.725Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:30:33.731Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:30:43.737Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:30:53.743Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:31:03.750Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:31:13.756Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:31:23.762Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:31:31.015Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-13T23:31:33.765Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:31:43.772Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:31:53.777Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:32:03.782Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:32:13.787Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:32:23.789Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:32:33.794Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:32:43.799Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:32:53.802Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:33:03.807Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:33:13.813Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:33:23.819Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:33:33.824Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:33:41.191Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-13T23:33:43.827Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:33:53.833Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:34:03.838Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:34:13.843Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:34:23.849Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:34:33.855Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:34:43.861Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:34:53.867Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:35:03.872Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:35:13.878Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:35:23.884Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:35:33.889Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:35:43.895Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:35:51.111Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-13T23:35:53.897Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:36:03.904Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:36:13.909Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:36:23.914Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:36:33.920Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:36:43.925Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:36:53.930Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:37:03.936Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:37:13.941Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:37:23.946Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:37:33.951Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:37:43.956Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:37:53.961Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:38:01.159Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-13T23:38:03.965Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:38:13.971Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:38:23.977Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:38:33.981Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:38:43.988Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:38:53.994Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:39:03.998Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:39:14.003Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:39:24.009Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:39:34.013Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:39:44.019Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:39:54.024Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:40:04.030Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:40:11.335Z - [0m[31mERR[0m Socket Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2m2015-10-13T23:40:14.032Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:40:24.037Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:40:34.043Z - [0m[31mERR[0m Control Center unavailable
+[2m2015-10-13T23:40:44.049Z - [0m[31mERR[0m Control Center unavailable

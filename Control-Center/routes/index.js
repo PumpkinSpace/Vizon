@@ -58,7 +58,7 @@ exports = module.exports = function(app) {
 	app.get('/partnerships', routes.views.partnerships);
 	app.get('/permissions', routes.views.permissions);
 
-	// ':' allows the mid and t variables to get passed on as req.params.mid/t
+	
 	app.get('/mission/:mid', routes.views.view_mission.init);
 	app.get('/mission/:mid/tap/:t/', routes.views.view_mission.tap);
 	app.post('/mission/:mid/cap/', routes.views.view_mission.cap);

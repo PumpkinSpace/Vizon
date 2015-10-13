@@ -226,8 +226,6 @@ module.exports = function(ks){
 												
 							// Create the model						
 							db.model(descriptor.missionId[m].missionId  + '-' + descriptor.ID, newSchema);
-							// Tell the groundstation that the descriptor has changed, and that it should re-request the data
-							// This line should probably be in routes-io.js and a function call to that here instead
 							ks.listener.of('/gs').emit('removedesc', descriptor.missionId[m].missionId  + '-' + descriptor.ID);
 							utils.logText(descriptor.missionId[m].missionId  + '-' + descriptor.ID + ' ' + descriptor.name, 'LOAD'.cyan);
 						}

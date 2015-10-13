@@ -1,13 +1,6 @@
-// !!!!!!!!! 
-// Any changes in this file will not take effect until grunt is run, or the start script
-// is reran.  The compilation of this page depends on a browserify script, which is ran
-// by the grunt protocol on the server
-//
-// It would be good to find a better permanent solution to this.
-// !!!!!!!!!
-
 /* global app:true, EventEmitter, io */
   'use strict';
+  //var $ = require('jquery-browserify');
 
 $(function() {
   var EventEmitter = require('events').EventEmitter;

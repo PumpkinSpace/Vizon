@@ -18,11 +18,17 @@ block content
 				for mission in missions
 					li(role='presentation')
 						a.missionvar(role='menuitem', tabindex='-1', href='#') #{mission.missionId}, #{mission.name}
+	//
+		.btn-group
+			button#missionddb.btn.btn-default.btn-primary.dropdown-toggle(type='button', data-toggle='dropdown')
+					| Select Mission 
+					span.caret
+				ul#missiondd.dropdown-menu
 	.btn-group
-		button#tapddb.btn.btn-default.btn-primary.dropdown-toggle(type='button', data-toggle='dropdown')
+		button#dropdownMenu1.btn.btn-default.btn-primary.dropdown-toggle(type='button', data-toggle='dropdown')
 				| Select Data 
 				span.caret
-			ul#tapmenu.dropdown-menu
+			ul#dropdown1.dropdown-menu
 	.btn-group
 		button#scatterbutton.btn.btn-primary Scatter
 	.btn-group
